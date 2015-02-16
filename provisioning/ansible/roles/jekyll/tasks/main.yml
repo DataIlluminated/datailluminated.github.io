@@ -1,0 +1,16 @@
+---
+  - name: Package Install | Make
+    apt: pkg=make state=present
+    tags: gcc
+
+  - name: Package Install | GCC
+    apt: pkg=gcc state=present
+    tags: gcc
+
+  - name: Package Install | Node.JS
+    apt: pkg=nodejs state=present
+    tags: node.js
+
+  - name: Install Jekyll
+    gem: name=jekyll state=present
+    tags: jekyll

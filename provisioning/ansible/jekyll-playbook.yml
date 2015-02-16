@@ -1,0 +1,11 @@
+---
+  - hosts: all
+    user: vagrant
+    sudo: yes
+    vars:
+      playbook_name: jekyll-playbook
+    tasks:
+      -apt: update_cache=yes
+    roles:
+      - ansible-ruby2.1
+      - jekyll

@@ -1,0 +1,11 @@
+# Site settings
+title: Data Illuminated
+email: info@datailluminated.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.datailluminated.com" # the base hostname & protocol for your site
+twitter_username: Streamweaver
+github_username:  Streamweaver
+
+# Build settings
+markdown: kramdown
