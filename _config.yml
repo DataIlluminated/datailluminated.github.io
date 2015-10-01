@@ -1,11 +1,46 @@
+url: https://datailluminated.github.io
+baseurl: ""
+
 # Site settings
-title: Data Illuminated
+title: DataIlluminated
 email: info@datailluminated.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.datailluminated.com" # the base hostname & protocol for your site
-twitter_username: Streamweaver
-github_username:  Streamweaver
+description: "Plan | Lead | Code"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 0066cc
+  secondary: fec503
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Scott Turnbull
+  pic: 4
+  position: Founder
+  social:
+    - title: twitter
+      url: https://twitter.com/Streamweaver
+    - title: stack-overflow
+      url: http://stackoverflow.com/users/542146/streamweaver
+    - title: github
+      url: https://github.com/Streamweaver
+    - title: wordpress
+      url: http://www.flagonwiththedragon.com
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/Streamweaver
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/542146/streamweaver
+  - title: github
+    url: https://github.com/Streamweaver
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
+permalink: pretty
